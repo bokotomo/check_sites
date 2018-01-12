@@ -1,0 +1,14 @@
+__pycache__/
+.cache
+.DS_Store
+.ipynb_checkpoints
+*.swp
+*.zip
+*.xlsx
+*.csv
+*.pyc
+*.env
+.python-version
+
+setting.py
+

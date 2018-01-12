@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+import sys
+
+# チェックするサイトの一覧
+check_sites_url = [
+    '',
+]
+
+# slackのチャンネル名
+slack_bot_channel = ''
+
+# slackのボット名
+slack_bot_username = ''
+
+# slackのAPIのURL ( https://hooks.slack.com/services/KEY1/KEY2/KEY3 )
+slack_bot_url = '' 
+
+# メールアドレス
+slack_bot_email_to = ''
+
+##################################
+# SMTP GMAIL
+##################################
+SMTP_GMAIL_HOST = 'smtp.gmail.com'
+SMTP_GMAIL_FROM = ''
+SMTP_GMAIL_USER = ''
+SMTP_GMAIL_PASS = ''
+SMTP_GMAIL_PORT = 587
+

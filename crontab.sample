@@ -1,0 +1,3 @@
+CRON_TZ="Japan"
+10 0,6,12,18 * * * export LANG=ja_JP.UTF-8; /PAHT/check_sites/check.sh > ~/error_check_sites.log
+
