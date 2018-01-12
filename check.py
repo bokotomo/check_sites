@@ -3,7 +3,7 @@ import sys
 import urllib.request as req
 import urllib.parse as p
 import urllib.error as err
-from notification_manage import NotificationManager
+from notification_manager import NotificationManager
 import subprocess
 import time
 import setting
@@ -12,7 +12,7 @@ def main(args):
     """
     メイン関数
     """
-    em = ErrorManager()
+    em = NotificationManager()
     for url in setting.check_sites_url:
         start = time.time()
         request = req.Request(url)
